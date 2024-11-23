@@ -18,11 +18,3 @@ const str = gameName.slice(-8,4);
 console.log(str);
 
 console.log(gameName.split('-'));
-
-
-
-
-
-
-
-
