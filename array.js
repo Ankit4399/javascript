@@ -26,7 +26,7 @@ console.log("C",num);
 console.log(num.splice(1,3)); // give array in which 3rd index is included and original array is changed(1st to 3rd index elements are deleted from original array).
 console.log("D",num);
 
-
+//one more thing about splice is : in the parameter of splice, the first one is starting index and the second parameter is length of the splice(not the ending index).
 
 /*
 SUMMARRY:
