@@ -52,4 +52,3 @@ obj.greeting = function(){
  }
  console.log(obj.greeting());
  console.log(obj.greetingtwo());
- 
