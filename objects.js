@@ -62,3 +62,35 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+// ************* object de-structure and json api intro **********************
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+// de-structure an object
+const{courseInstructor : instructor} = course
+console.log(instructor);
+
+//api fetch 
+//JSON :- JAVA SCRIPT OBJECT NOTATION
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+[
+    {},
+    {},
+    {}
+]
+
+/*SUMMARRY :
+
+1. To extract value from object => const {keyname} = object name;
+2. To rename keyname for using more times => const {keyname: new name } = object name;
+3. JSON is a collection of key-value pairs just like object and a JSON array is an ordered list of value.
+
+*/
