@@ -22,6 +22,9 @@ function printme(val){
 }
 //coding.forEach(printme)
 
+// coding.forEach( (item, index, arr)=> {
+//     console.log(item, index, arr);
+// } )
 
 
 //using foreeach in arrays of objects to access object element
